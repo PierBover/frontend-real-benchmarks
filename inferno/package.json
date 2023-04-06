@@ -1,0 +1,20 @@
+{
+  "name": "inferno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inferno": "^8.1.0",
+    "inferno-create-element": "^8.1.0"
+  },
+  "devDependencies": {
+    "vite": "^4.2.1"
+  }
+}
