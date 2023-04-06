@@ -21,10 +21,43 @@ window.requestAnimationFrame(updateNext);
 
 function App () {
 	return items.value.map((item) => {
-		return this.state.items.map((item) => {
-			if (item.isButton) return h('button', {key:item.id, onclick: onClick}, item.text);
-			return h('span', {key:item.id}, item.text);
-		});
+		return h('div', {key:item.id}, [
+			h('h2', null, item.id),
+			h('h3', null, 'Lorem ipsum'),
+			h('h4', null, 'Lorem ipsum'),
+			h('h5', null, 'Lorem ipsum'),
+			h('div', null, [
+				h('div', null, [
+					h('div', null, [
+						h('div', null, [
+							h('p', null, [
+								h('button', {onclick: onClick}, 'Lorem ipsum'),
+								h('button', {onclick: onClick}, 'Lorem ipsum'),
+								h('button', {onclick: onClick}, 'Lorem ipsum'),
+								h('button', {onclick: onClick}, 'Lorem ipsum'),
+								h('button', {onclick: onClick}, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum'),
+								h('span', null, 'Lorem ipsum')
+							])
+						])
+					])
+				])
+			])
+		])
 	});
 }
 

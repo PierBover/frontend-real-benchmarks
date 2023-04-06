@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "production": "vite build && vite preview"
   },
   "keywords": [],
   "author": "",

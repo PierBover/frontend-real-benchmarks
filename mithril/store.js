@@ -6,11 +6,11 @@ let currentFrame = 1
 const colors = ['tomato', 'blue', 'green', 'cyan', 'pink', 'red', 'darkred', 'lightblue'];
 let colorIndex = 0;
 let fps = 0;
-let concurrentItems = 100;
+let concurrentItems = 10;
 
 function nextSecond () {
 	console.log(currentStep, '[', fps, ']', concurrentItems);
-	concurrentItems += 100;
+	concurrentItems += 10;
 	currentStep ++;
 	//if (fps >= 60) concurrentItems += 100;
 	//else concurrentItems -= 100;
